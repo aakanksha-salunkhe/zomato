@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    height: 300vh;
+}
+.container{
+    width: 83%;
+    margin: auto;
+}
+header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.nav{
+    font-weight: 550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding:  0px 5px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.Zomato_logo{
+    width: 300px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: 50%;
+}
+.discover{
+    font-size: 40px;
+    margin: 25px 20px;
+}
+.search-bar{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 760px;
+    border-radius: 10px;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+}
+.location-map{
+    color: red;
+}
+.caret-up{
+    color: #000;
+}
+
+.location input{
+    border: none;
+    font-size: 15px;
+    width: 190px;
+    
+}
+.search-logo{
+    color: #000;
+    display: flex;
+   padding: 5px;
+}
+.images{
+   
+    padding-left: 80px;
+}
+
+.images img{
+    
+    display: inline-block;
+    width: 370px;
+    height: 240px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.images img:hover{
+       width:380px;
+       height: 250px;
+}
+
+.search-logo input{                     
+    width: 480px;
+    border: none;
+
+}
+.search-logo i{
+    color: grey;
+}
+.title{
+    font-weight: 500;
+    font-size: 2.8rem;
+padding-left: 80px;
+padding-top: 30px;
+height: 43px;
+font-family: sans-serif;
+}
+ h5{
+    
+    font-weight: 50;
+    padding-left: 80px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    
+    
+}
+.collections{
+    margin-left: 80px;
+}
+.collections img{
+    display: inline-block;
+    width:270px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    
+}
+.Pune h5{
+    
+    padding-left: 80px;
+    font-size: 80px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.box{
+    width: 247px; height: 47px;
+}
+   
